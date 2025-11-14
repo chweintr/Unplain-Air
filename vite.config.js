@@ -10,6 +10,14 @@ export default defineConfig({
   },
   build: {
     outDir: 'dist',
-    sourcemap: true
+    sourcemap: true,
+    rollupOptions: {
+      input: {
+        main: './public/index.html'
+      }
+    }
+  },
+  optimizeDeps: {
+    include: ['three']
   }
 });

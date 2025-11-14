@@ -1,0 +1,6 @@
+node_modules/
+dist/
+*.glb
+*.gltf
+.DS_Store
+.env

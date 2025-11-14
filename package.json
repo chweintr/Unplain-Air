@@ -1,0 +1,16 @@
+{
+  "name": "unplain-air",
+  "version": "0.1.0",
+  "description": "AI-Powered Mixed Reality Plein Air Painting",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build"
+  },
+  "dependencies": {
+    "three": "^0.170.0"
+  },
+  "devDependencies": {
+    "vite": "^6.0.0"
+  }
+}
